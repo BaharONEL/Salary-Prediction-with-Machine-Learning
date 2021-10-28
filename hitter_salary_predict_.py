@@ -58,8 +58,7 @@ df[df.Salary.isnull()==True].head()
 
 df = df.dropna()
 df.isnull().sum()
-df.shape #263 gözlerm birimi ve 20 değişken kaldı
-
+df.shape 
 ################################################## Outlier ###########################################################
 def grab_col_names(dataframe, cat_th=10, car_th=20):
     """
